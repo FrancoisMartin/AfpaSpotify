@@ -1,0 +1,20 @@
+afpa_calculette_calcul:
+    pattern:  /{operation}/{a}/{b}
+    defaults: { _controller: AfpaCalculetteBundle:Default:calcul }
+    requirements:
+        a: \d+
+        b: \d+
+
+afpa_calculette_result:
+    pattern:  /result/{result}
+    defaults: { _controller: AfpaCalculetteBundle:Default:result }
+
+afpa_calculette_fibonacci:
+    pattern:  /fibonacci/{number}
+    defaults: { _controller: AfpaCalculetteBundle:Default:fibonacci }
+    requirements:
+        a: \d+
+
+afpa_calculette_json:
+    pattern:  /json/{id}
+    defaults: { _controller: AfpaCalculetteBundle:Default:json }

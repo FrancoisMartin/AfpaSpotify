@@ -1,0 +1,7 @@
+afpa_artist_voir:
+    path:     /artist/{id}
+    defaults: { _controller: AfpaArtistBundle:Default:voir }
+
+afpa_artist_save:
+    path:     /artist/save/{id}
+    defaults: { _controller: AfpaArtistBundle:Default:save }
