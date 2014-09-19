@@ -15,4 +15,5 @@ class DefaultControllerTest extends WebTestCase
         // Ou bien
         // $this->assertEquals('Coldplay', $crawler->filter('.content h3')->text());
 	}
+	
 }
